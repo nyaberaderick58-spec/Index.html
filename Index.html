@@ -1,0 +1,21 @@
+
+    let change =
+    (Math.random() - 0.5) * 100;
+
+    current += change;
+
+    price.innerText =
+    "$" + current.toLocaleString(
+        undefined,
+        {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        }
+    );
+
+}, 3000);
+
+</script>
+
+</body>
+</html>
